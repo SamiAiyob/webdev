@@ -1,0 +1,32 @@
+body {
+    background: radial-gradient(navy, gold) ;
+    color: black ;
+    text-align: center;
+
+    height: 80vh;
+    display: grid;
+    place-items: center;
+
+    
+}
+#Backend {
+    scale: -1;
+}
+main {
+    background: gold;
+    border-radius: 50%;
+    border: 4px double;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+
+    animation: rota 100s infinite;
+
+}
+
+@keyframes rota {
+    0% { rotate: 0deg; }
+    100% { rotate: 360deg; }
+
+}
